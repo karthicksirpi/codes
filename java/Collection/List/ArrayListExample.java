@@ -25,7 +25,8 @@ public class ArrayListExample
 		x.set(1, 50);
 		System.out.println("After setting the 1 index"+x);
 		Iterator<Integer> i=x.iterator();
-		System.out.print(i.next());
+		System.out.println(i.next());
+		System.out.println(x.remove(2));
 		
 	}
 }
